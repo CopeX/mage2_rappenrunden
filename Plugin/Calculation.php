@@ -36,4 +36,9 @@ class Calculation
         }
         return [$price];
     }
+
+    public function beforeCalcTaxAmount($price, $taxRate, $priceIncludeTax = false, $round = true){
+        return [$price, $taxRate, $priceIncludeTax, true];
+    }
+
 }
