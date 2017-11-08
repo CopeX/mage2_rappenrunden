@@ -1,4 +1,4 @@
-Comsolit RappenRunden Magento2 Extension
+RappenRunden Magento2 Extension
 ========================================
 
 Introduction
